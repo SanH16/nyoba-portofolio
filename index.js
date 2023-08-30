@@ -1,13 +1,12 @@
 // console.log("Halo boy")
 
-var hitung = 1
+var hitung = 1;
 let nama = "Adhitya";
 const namaBelakang = "Hasan";
 
-console.log(hitung)
-console.log(nama)
-console.log(namaBelakang)
-
+console.log(hitung);
+console.log(nama);
+console.log(namaBelakang);
 
 // ====================================
 let namaa = "Stefanus";
@@ -16,14 +15,14 @@ const umur = 20;
 const apakahSudahMenikah = false;
 let jumlahAnak;
 
-console.log(namaa)
-console.log(namaIbuKandung)
-console.log(umur)
-console.log(apakahSudahMenikah)
-console.log(jumlahAnak)
+console.log(namaa);
+console.log(namaIbuKandung);
+console.log(umur);
+console.log(apakahSudahMenikah);
+console.log(jumlahAnak);
 
 // ============== Tutor Dea Afrizal ======================
-console.log(nama)
+console.log(nama);
 let usia = 20;
 let tinggiBadan = 165;
 let beratBadan;
@@ -32,9 +31,9 @@ let pacar = 2;
 beratBadan = 59;
 
 if (pacar == null) {
-    pacar = "Belum punya";
+  pacar = "Belum punya";
 } else {
-    pacar = "Sudah punya";
+  pacar = "Sudah punya";
 }
 
 // atau
@@ -57,29 +56,44 @@ let hutang = 20000;
 const saldoAkhir = saldoAwal + saldoTambahan - hutang;
 
 alert(
-    `Haloo selamat datang ${nama} 🚀
+  `Haloo selamat datang ${nama} 🚀
 saat ini usia Anda adalah ${usia}
 tinggi badan Anda ${tinggiBadan} cm dan berat badan ${beratBadan} kg
-status pacar "${pacar}"❤️`,
-)
+status pacar "${pacar}"❤️`
+);
+alert(`Halo ${nama} mohon dibaca dengan seksama ${siap}`);
 alert(
-    `Halo ${nama} mohon dibaca dengan seksama ${siap}`,
-)
-alert(
-    `Saat ini Saldo Awal anda sebesar Rp.${saldoAwal} 
+  `Saat ini Saldo Awal anda sebesar Rp.${saldoAwal} 
 Saldo Tambahan sebesar Rp.${saldoTambahan}🧸
 Hutang yang belum dibayar Rp.${hutang}💳
-Maka total Saldo anda sebesar Rp.${saldoAkhir}💸`,
-)
+Maka total Saldo anda sebesar Rp.${saldoAkhir}💸`
+);
 
 // ============== Tutor Dea Afrizal ======================
 
 // ==================================
-window.addEventListener('scroll', function() {
-    const navbar = document.querySelector('nav');
-    if(window.scrollY > 0) {
-        navbar.classList.add('shadow');
-    } else {
-        navbar.classList.remove('shadow');
-    }
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector("nav");
+  if (window.scrollY > 0) {
+    navbar.classList.add("shadow");
+  } else {
+    navbar.classList.remove("shadow");
+  }
 });
+
+//======== new javascript refreshment =======
+//JS Refreshment
+
+// let num = 3;
+
+// if (num > 0) {
+//   //   const char = "A";
+//   //   console.log(char);
+
+//   console.log(`${num} is a positive number`);
+//   //   num = 5;
+// } else {
+//   console.log(`${num} is a negative number`);
+// }
+
+// console.log(num);
